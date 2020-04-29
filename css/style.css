@@ -1,0 +1,286 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.bg {
+    width: 1280px;
+    height: 3750px;
+    background-color: #edf2c5;
+    background-image: url(../images/body_bg.jpg)
+}
+
+.img_Header_Name {
+    width: 200px;
+    
+}
+
+.img_Header_Name:hover{
+    margin-top:-5px;
+    padding-bottom: 5px;
+}
+
+.header_icon {
+    margin-top: -30px;
+    height: 25px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line_login {
+    width: 1px;
+    height: 25px;
+}
+
+.btn_LOGIN_box {
+    width: 58px;
+    height: 23px;
+}
+
+.btn_JOIN_box {
+    width: 180px;
+    height: 23px;
+}
+
+.login {
+    margin: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header_title {
+    width: 1200px;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav_box {
+    margin-top: -65px;
+    height: 80px;
+    border-radius: 3px;
+    background-color: #58BBA8;
+}
+
+.nav_list {
+    display: flex;
+    padding-left: 240px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.nav_list_item {
+    list-style: none;
+    margin-right: 15px;
+    font-family: Arial;
+    color: #edf2c5;
+}
+
+.nav_Icon {
+    height: 50px;
+    width: 50px;
+}
+
+.img_fit {
+    width: 100%;
+}
+
+.body_box_outside {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body_box {
+    width: 1056px;
+    height: 2500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.body_box_column {
+    width: 916px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body_box_column_img_center {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.body_box_column_content {
+    width: 444px;
+    display: flex;
+    align-self: center;
+}
+
+.body_box_column_content_center {
+    width: 444px;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+.sporty {
+    background-color: #007350;
+}
+
+.civic {
+    background-color: #252E7A;
+}
+
+.rustic {
+    background-color: #6C8A00;
+}
+
+.elegant {
+    background-color: #7C1C98;
+}
+
+.modern {
+    background-color: #229B92;
+}
+
+.cool {
+    background-color: #006CBD;
+}
+
+.cute {
+    background-color: #F04D7B;
+}
+
+.harmonious {
+    background-color: #B9290E;
+}
+
+.hip {
+    background-color: #E36F00;
+}
+
+.historical {
+    background-color: #7A2541;
+}
+
+.body_box_img_center {
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    font-size: 24px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons {
+    padding-top: 50px;
+    height: 250px;
+    width: 1056px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icons_column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icns_box {
+    width: 190px;
+    height: 100px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/*page1*/
+
+.page_one_bg_height {
+    height: 2253px;
+}
+
+.page_one_height {
+    height: 1700px;
+}
+
+.body_box_column_one {
+    width: 916px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.body_box_column_pageone {
+    width: 270px;
+    height: 370px;
+}
+
+.body_box_column_page1_img_bg {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_eighty {
+    width: 80%;
+}
+
+.color_green {
+    background-color: #BBDDC7;
+}
+
+.text_align_center {
+    text-align: center;
+}
+
+.box_footer {
+    width: 1280px;
+    height: 60px;
+    background-color: #FFC945;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 5;
+}
+
+.text {
+    margin-top: -70px;
+    font-size: 30px;
+    display: none;
+    color: white;
+}
+
+.icns_box:hover .text {
+    display: block;
+
+}
+
+.icns_box:hover .icon_img {
+    visibility: hidden;
+}
